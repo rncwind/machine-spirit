@@ -1,0 +1,23 @@
+* What is this?
+Machine Spirit is a tool designed to simulate matchups in 9th edition Warhammer
+40k.
+
+In the past, I have used ad-hoc back of the envelope methods which include a
+bunch of R scripts and python oneliners to do this, and it was starting to get
+tiresome.
+
+Initially, this project started out in F# as an exercise for learning that,
+however I could not get any database libraries to play nicely with my esoteric
+system setup, as such I moved to rust.
+* Why should I use this?
+Oftentimes it's useful to simulate a given matchup. The numbers are often
+crunched in terms of MEQs, TEQs and GEQs but sometimes you want to see just how
+lucky you need to be in order to kill a titan with a Melta.
+
+This tool is also possibly useful for competitive 40k, but this is not my area
+of expertise.
+* Shortcomings
+Right now, there is no pretty graphical output, and there is no support for
+weapon, or character abilities.
+
+Hopefully these will come in due course.
