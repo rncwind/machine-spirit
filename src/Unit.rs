@@ -10,7 +10,10 @@ struct Model {
     weapon: Weapon,
 }
 
+/// A simple record type that defines the "crunch line" of a model.
 struct UnitStats {
+    // Hopefully none of these are greater than 256 at any point? AFAIK a warlord
+    // titan is the maximum with a whole 70 wounds.
     ws: u8,
     bs: u8,
     s: u8,

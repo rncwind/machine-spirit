@@ -1,6 +1,14 @@
 use regex::Regex;
 use rand::distributions::{Distribution, Uniform};
 
+/// This record represents a given bag of dice.
+///
+/// We represent a "bag" of dice as it is far more general, the representation
+/// of a single die is merely it's maximal value after all.
+///
+/// All dice can be represented as
+/// a "diestring" which is the primary method of constructon for
+#[derive(PartialEq)]
 pub struct Die {
     pub die_string: String,
     pub die_count: u16,
